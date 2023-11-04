@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2">
+
+    <TextView
+        android:id="@+id/txtCorreo2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="112dp"
+        android:text="TextView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.484"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtNombre2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="TextView"
+        app:layout_constraintEnd_toEndOf="@+id/txtCorreo2"
+        app:layout_constraintStart_toStartOf="@+id/txtCorreo2"
+        app:layout_constraintTop_toBottomOf="@+id/txtCorreo2" />
+
+    <TextView
+        android:id="@+id/txtApellido2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="TextView"
+        app:layout_constraintEnd_toEndOf="@+id/txtNombre2"
+        app:layout_constraintStart_toStartOf="@+id/txtNombre2"
+        app:layout_constraintTop_toBottomOf="@+id/txtNombre2" />
+
+    <TextView
+        android:id="@+id/txtCel2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="TextView"
+        app:layout_constraintEnd_toEndOf="@+id/txtApellido2"
+        app:layout_constraintStart_toStartOf="@+id/txtApellido2"
+        app:layout_constraintTop_toBottomOf="@+id/txtApellido2" />
+
+    <Button
+        android:id="@+id/btnAtras"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:text="Atras"
+        app:layout_constraintEnd_toEndOf="@+id/txtCel2"
+        app:layout_constraintStart_toStartOf="@+id/txtCel2"
+        app:layout_constraintTop_toBottomOf="@+id/txtCel2" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -29,6 +29,6 @@ class SharedPreferences(context:Context) {
         return storage.getString("cel_Usuario","").toString()
     }
     fun Borrar(){
-        storage.edit().clear()
+        storage.edit().clear().apply()
     }
 }
